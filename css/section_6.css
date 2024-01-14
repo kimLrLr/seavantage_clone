@@ -1,0 +1,38 @@
+.sec_6{
+    width: 100%;
+    background-image: linear-gradient(rgba(1, 48, 105, 0.9), rgba(1, 48, 105, 0.9)),
+        url(https://uploads-ssl.webflow.com/649bc60a5baf71dfbdca9f99/649bc60a5baf71dfbdcaa05e_main-banner-img.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, .09);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_wrap_6{
+    color: #eee;
+}
+
+.text_wrap_6 h3{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.text_wrap_6 p{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.btn_wrap_6{
+    width: 150px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -1px;
+}
+/* sec_6 end */

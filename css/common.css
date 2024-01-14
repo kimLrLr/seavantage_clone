@@ -1,0 +1,58 @@
+.sec_2, .sec_3{
+    background-color: #081131;
+    color: white;
+}
+
+.section_main{
+    padding: 150px;
+}
+
+@media screen and (max-width:767px) {
+
+    header .logo, header .mo_lang{
+        position: relative;
+        z-index: 11;
+    }
+}
+
+.title_wrap{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title_wrap h4{
+    font-size: 18px;
+    color: #2c73ff;
+    font-weight: 500;
+}
+
+.title_wrap h3{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 35px 0;
+    line-height: 65px;
+}
+
+@media screen and (max-width:767px){
+    .sec_3, .sec_4{
+        padding: 28px;
+    }
+
+    .title_wrap h4{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .title_wrap h3{
+        font-size: 35px;
+        margin: 20px 0;
+        line-height: 45px;
+        letter-spacing: -2px;
+    }
+}
+
+.footer_sns a:hover ,
+.footer_cop a:hover{
+    color: #fff;
+    opacity: 0.8;
+}

@@ -1,0 +1,56 @@
+.con_4{
+    width: 33%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 7px 7px 70px rgba(0, 0, 0, .09);
+    overflow: hidden;
+    float: left;
+    text-align: center;
+}
+
+.con_4:nth-child(1),
+.con_4:nth-child(3){
+    margin-top: 60px;
+}
+
+.con_4:nth-child(2){
+    position: relative;
+    /* padding: 50px 0; */
+    height: 620px;
+}
+
+.con_4 h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 40px 0 20px 0;
+}
+
+.con_4 p{
+    max-width: 425px;
+    margin: 0px auto;
+    line-height: 25px;
+    padding: 0 35px 60px 35px;
+    opacity: 0.9;
+}
+
+.bg_4{
+    height: 320px;
+    background-color: lightgray;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.con_4:nth-child(1) .bg_4{
+    background-image: url(https://uploads-ssl.webflow.com/649bc60a5baf71dfbdca9f99/649bc60a5baf71dfbdcaa0ad_pexels-tom-fisk-3840441.webp);
+}
+
+.con_4:nth-child(2) .bg_4{
+    height: 450px;
+    background-image: url(https://uploads-ssl.webflow.com/649bc60a5baf71dfbdca9f99/649bc60a5baf71dfbdcaa054_LSP-img.webp);
+}
+
+.con_4:nth-child(3) .bg_4{
+    background-image: url(https://uploads-ssl.webflow.com/649bc60a5baf71dfbdca9f99/649bc60a5baf71dfbdcaa061_SCM-img.webp);
+}
+/* sec_4 end */

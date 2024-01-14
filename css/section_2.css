@@ -1,0 +1,33 @@
+.sec_2{
+    padding: 150px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.con_wrap_2{
+    width: 2000px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    animation: logo_ani 28s linear infinite alternate;
+    /* 이름 움직이는 시간 가속도 반복 왔다갔다 */
+}
+
+@keyframes logo_ani{
+    0%{
+        left: 0;
+    }
+
+    100%{
+        left: -2000px;
+    }
+}
+
+.items{
+    width: 200px;
+}
+/* sec_2 end */
